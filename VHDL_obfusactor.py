@@ -81,6 +81,7 @@ import re
 def Obfuscation_files(SRC_Dir, DIST_Dir, source_to_obfusacte, signals, obfuscated_signals):
     """
     파일을 읽고 특정 signal 단어들을 난독화된 단어로 대체하여 출력 디렉토리에 저장하는 함수.
+    또한, 연속된 스페이스, 탭, 개행 문자를 하나의 스페이스로 변환.
 
     Args:
         SRC_Dir (str): 원본 파일이 있는 디렉토리 경로.
@@ -107,21 +108,25 @@ def Obfuscation_files(SRC_Dir, DIST_Dir, source_to_obfusacte, signals, obfuscate
             print(f"Processing file: {next_file_input}")
             print(f"{i}/{len(source_to_obfusacte)} Files obfuscated")
 
-            for line_input in file_input:
-                # 주석 제거: '--'로 시작하는 주석을 삭제
-                line_input = re.sub(re.compile(r"--.*?$"), "", line_input)
+            # 전체 파일 내용을 읽기
+            text = file_input.read()
 
-                # 원본 신호 이름을 난독화된 이름으로 대체
-                for original, obfuscated in zip(signals, obfuscated_signals):
-                    regex = r"\b" + re.escape(original) + r"\b"  # 정확한 단어 일치
-                    insensitive_regex = re.compile(regex, re.IGNORECASE)  # 대소문자 무시
-                    line_input = insensitive_regex.sub(obfuscated, line_input)
+            # 주석 제거: '--'로 시작하는 주석을 삭제
+            text = re.sub(r"--.*?$", "", text, flags=re.MULTILINE)
 
-                # 수정된 라인을 출력 파일에 저장
-                file_output.write(line_input)
+            # 줄바꿈 포함 연속된 스페이스, 탭, 개행 문자를 하나의 스페이스로 변환
+            text = re.sub(r"[\s\t\n\r]+", " ", text).strip()
+
+            # 원본 신호 이름을 난독화된 이름으로 대체
+            for original, obfuscated in zip(signals, obfuscated_signals):
+                regex = r"\b" + re.escape(original) + r"\b"  # 정확한 단어 일치
+                insensitive_regex = re.compile(regex, re.IGNORECASE)  # 대소문자 무시
+                text = insensitive_regex.sub(obfuscated, text)
+
+            # 수정된 내용을 출력 파일에 저장 (줄바꿈 없이 한 줄로 저장)
+            file_output.write(text)
 
     print("All files have been successfully obfuscated.")
-
 
 def Write_dumpfile(DIST_Dir, signals, obfuscated_signals):
     # Dump json containing the old and new signals in out_directory/dump.txt
