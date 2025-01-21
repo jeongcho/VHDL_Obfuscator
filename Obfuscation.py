@@ -48,7 +48,7 @@ class Obfuscation:
         return decrypted_text
 
     def s2num_enc(self, instring):
-        outstr = "as"
+        outstr = "ff"
         for c in instring:
             outstr = outstr + f"{ord(c):02x}"
         # print(outstr)
@@ -56,16 +56,17 @@ class Obfuscation:
 
     def num2s_dec(self, encoded_str):
         # "as" 접두사 제거
-        if not encoded_str.startswith("as"):
+        if not encoded_str.startswith("ff"):
             raise ValueError("Invalid encoded string format")
 
         hex_part = encoded_str[2:]  # "as" 이후의 문자열만 추출
         decoded_str = "".join(chr(int(hex_part[i:i+2], 16)) for i in range(0, len(hex_part), 2))
         return decoded_str    
 
-obf = Obfuscation()
+if __name__ == "__main__":
+    obf = Obfuscation()
 
-plain_text = "Hello"
-outstr = obf.obfuscate(plain_text)
-instr = obf.deobfuscation(outstr)
-print(instr)
+    plain_text = "Hello"
+    outstr = obf.obfuscate(plain_text)
+    instr = obf.deobfuscation(outstr)
+    print(instr)

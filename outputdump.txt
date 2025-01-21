@@ -1,0 +1,202 @@
+[
+	{
+		"original_signal": "state",
+		"obfuscated_signal" : "ff3332356d7477754d64456339442f2b5a6c44727579413d3d"
+	},
+	{
+		"original_signal": "s_ad_din",
+		"obfuscated_signal" : "ff6d79702b36614f2b55594a797369344e6c56482b65413d3d"
+	},
+	{
+		"original_signal": "s_ave_tx",
+		"obfuscated_signal" : "ff70553469356248674669474e4f396e764b594b7958773d3d"
+	},
+	{
+		"original_signal": "s_ave_tx_d",
+		"obfuscated_signal" : "ff764d71614b5443474d507a536f41756f6a356a5638773d3d"
+	},
+	{
+		"original_signal": "s_ave_cnt",
+		"obfuscated_signal" : "ff6f6f49524b56444d77713077545a545663315a5045413d3d"
+	},
+	{
+		"original_signal": "s_state_cnt",
+		"obfuscated_signal" : "ff566578526b744538644b49392b59753658356a6359413d3d"
+	},
+	{
+		"original_signal": "s_fifo_wr0",
+		"obfuscated_signal" : "ff556c7542746b515351533838686b37614254365847513d3d"
+	},
+	{
+		"original_signal": "s_fifo_rd0",
+		"obfuscated_signal" : "ff5343306145363166474e5241315a39645a6a6d4879773d3d"
+	},
+	{
+		"original_signal": "s_fifo_din0",
+		"obfuscated_signal" : "ff71444670796c6e74686577476451676d39424a302f513d3d"
+	},
+	{
+		"original_signal": "s_fifo_dout0",
+		"obfuscated_signal" : "ff49596952527246685a316551654f564e6635662f39413d3d"
+	},
+	{
+		"original_signal": "s_fifo_wr1",
+		"obfuscated_signal" : "ff74434b38614a354247676547696a3048776554796f513d3d"
+	},
+	{
+		"original_signal": "s_fifo_rd1",
+		"obfuscated_signal" : "ff4a644751576c526f685a63496b69594a7172304848673d3d"
+	},
+	{
+		"original_signal": "s_fifo_din1",
+		"obfuscated_signal" : "ff557746415069796532515158714d554e6632366b38513d3d"
+	},
+	{
+		"original_signal": "s_fifo_dout1",
+		"obfuscated_signal" : "ff644e52654c42493575715935704d6a745041723146773d3d"
+	},
+	{
+		"original_signal": "s_fifo_cnt",
+		"obfuscated_signal" : "ff463171634a63344666425a514c56473549496f6a35773d3d"
+	},
+	{
+		"original_signal": "s_ad_wr",
+		"obfuscated_signal" : "ff366e677746596c337243586a4d5452644a775a4c65673d3d"
+	},
+	{
+		"original_signal": "s_ad_arddr",
+		"obfuscated_signal" : "ff6c6475433641737731515947564b576b796a6c6b4c773d3d"
+	},
+	{
+		"original_signal": "s_ad_din_ave",
+		"obfuscated_signal" : "ff2f4636662f6c3072673535706e41485a3762646854513d3d"
+	},
+	{
+		"original_signal": "s_ad_din_ave_d",
+		"obfuscated_signal" : "ff714f412b3968364e7561522b464c4e355a4a445231673d3d"
+	},
+	{
+		"original_signal": "s_rx_done",
+		"obfuscated_signal" : "ff5a6c666e34314c507a4e595439584b4e644d6f326e773d3d"
+	},
+	{
+		"original_signal": "s_buffer_add_reset",
+		"obfuscated_signal" : "ff63705a6d713032797a6f6c39647875556a4737556b5545354d79796e5a506d70346e7835483537776a52733d"
+	},
+	{
+		"original_signal": "s_buffer_add",
+		"obfuscated_signal" : "ff41734f64796e456c5746356d69726979457351574d513d3d"
+	},
+	{
+		"original_signal": "s_buffer_dout",
+		"obfuscated_signal" : "ff71696d73453179677739397a633754775874385361773d3d"
+	},
+	{
+		"original_signal": "s_local_burst_rd",
+		"obfuscated_signal" : "ff6c52395545616841562b5330335664716b697a3933706466634b6948397a6f7466675938636851536461593d"
+	},
+	{
+		"original_signal": "s_local_burst_rd_end",
+		"obfuscated_signal" : "ff6c52395545616841562b5330335664716b697a3933754e5335735975446a484354684b506d6d344f6554453d"
+	},
+	{
+		"original_signal": "s_burst_data_en",
+		"obfuscated_signal" : "ff416f464a616f72316f6c5653574451334b42425836513d3d"
+	},
+	{
+		"original_signal": "s_burst_data",
+		"obfuscated_signal" : "ff364237545642476634566358363657586b6d2b5330673d3d"
+	},
+	{
+		"original_signal": "s_burst_us_req",
+		"obfuscated_signal" : "ff442f5a372f344d4f50427876662b55446d74477771673d3d"
+	},
+	{
+		"original_signal": "s_burst_data_us",
+		"obfuscated_signal" : "ff64684b35757841614e684d304243786e335a6a5438513d3d"
+	},
+	{
+		"original_signal": "s_burst_imu_req",
+		"obfuscated_signal" : "ff6947484f5a464e57314e6d57485976714235554f44773d3d"
+	},
+	{
+		"original_signal": "s_burst_data_imu",
+		"obfuscated_signal" : "ff537a6f52416d624a366b395532676b7071435155555a6466634b6948397a6f7466675938636851536461593d"
+	},
+	{
+		"original_signal": "i_ad_clk",
+		"obfuscated_signal" : "ff66634b612f4d46776431426239796e69595a575831413d3d"
+	},
+	{
+		"original_signal": "i_sys_clk",
+		"obfuscated_signal" : "ff5265546f48666357584236504c5951756c496d4859773d3d"
+	},
+	{
+		"original_signal": "i_rst_b",
+		"obfuscated_signal" : "ff35486432672f59566a33374f395741557145392b47413d3d"
+	},
+	{
+		"original_signal": "i_adc_data",
+		"obfuscated_signal" : "ff44636a2f325a3379446b685a472b78523636656767513d3d"
+	},
+	{
+		"original_signal": "i_rx_start",
+		"obfuscated_signal" : "ff3733516e4872384b2b4d313778654b617332752f32413d3d"
+	},
+	{
+		"original_signal": "i_ave_line",
+		"obfuscated_signal" : "ff6e3536516f646f71694a6d4152536d735a78574475773d3d"
+	},
+	{
+		"original_signal": "i_burst_type",
+		"obfuscated_signal" : "ff507a534d467a36562f345a534e5755745574326668773d3d"
+	},
+	{
+		"original_signal": "i_buffer_add_reset",
+		"obfuscated_signal" : "ff734375372b7345675871315954415046687a5046356b45354d79796e5a506d70346e7835483537776a52733d"
+	},
+	{
+		"original_signal": "i_local_burst_index",
+		"obfuscated_signal" : "ff4732345242474976646c354951705765616f3543544b68324e585352362b4c533254566936366b482f516f3d"
+	},
+	{
+		"original_signal": "i_local_burst_rd",
+		"obfuscated_signal" : "ff35345579546249415444475676365976357270794f706466634b6948397a6f7466675938636851536461593d"
+	},
+	{
+		"original_signal": "i_local_burst_rd_end",
+		"obfuscated_signal" : "ff35345579546249415444475676365976357270794f754e5335735975446a484354684b506d6d344f6554453d"
+	},
+	{
+		"original_signal": "o_ave_tx_trg",
+		"obfuscated_signal" : "ff78367278306164782f62776f386552346a615a594c673d3d"
+	},
+	{
+		"original_signal": "o_rx_done",
+		"obfuscated_signal" : "ff4f4e713355624a533343352b346e33756246377338673d3d"
+	},
+	{
+		"original_signal": "i_imu_trig",
+		"obfuscated_signal" : "ff526a78674d6b6743434d707672794536766e71794c513d3d"
+	},
+	{
+		"original_signal": "o_burst_us_req",
+		"obfuscated_signal" : "ff547151597569774e3243584579796a57764a7a6c39673d3d"
+	},
+	{
+		"original_signal": "o_burst_imu_req",
+		"obfuscated_signal" : "ff3749554e2f736346657730416b38716a732b745371513d3d"
+	},
+	{
+		"original_signal": "o_burst_data_en",
+		"obfuscated_signal" : "ff545336484f3169516e614c77456c316d622f53482f673d3d"
+	},
+	{
+		"original_signal": "o_burst_data",
+		"obfuscated_signal" : "ff336c46794e7a665a41773233795930316930313174513d3d"
+	},
+	{
+		"original_signal": "state_type",
+		"obfuscated_signal" : "ff4463694d6d3674306b327471514e62734244666268773d3d"
+	},
+]
