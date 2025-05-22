@@ -4,8 +4,8 @@ import os
 from pathlib import Path
 import argparse
 
-SRC_Dir = "input"
-DIST_Dir = "output"
+SRC_Dir = "output"
+DIST_Dir = "deobfused"
 
 # Search files in subdirectory
 def list_All_Vhd_Files(path):
@@ -88,28 +88,26 @@ def get_token(files_list):
 
     return signals
 
-import re
+def decode_ff_string(encoded_str, obf):
+    try:
+        # Base64 디코딩 시도 (ff 이후의 문자열만 디코딩)
+        decoded_str = obf.deobfuscation(encoded_str)
+        return decoded_str
+    except Exception as e:
+        # 디코딩 실패 시 원래 문자열 반환
+        print(f"Decoding failed for {encoded_str}: {e}")
+        return encoded_str
 
-def Obfuscation_files(SRC_Dir, DIST_Dir, source_to_obfusacte, signals, obfuscated_signals):
-    """
-    파일을 읽고 특정 signal 단어들을 난독화된 단어로 대체하여 출력 디렉토리에 저장하는 함수.
-    또한, 연속된 스페이스, 탭, 개행 문자를 하나의 스페이스로 변환.
 
-    Args:
-        SRC_Dir (str): 원본 파일이 있는 디렉토리 경로.
-        DIST_Dir (str): 난독화된 파일을 저장할 디렉토리 경로.
-        source_to_obfusacte (list): 난독화할 파일 목록.
-        signals (list): 원본 신호 이름 리스트.
-        obfuscated_signals (list): 난독화된 신호 이름 리스트 (signals와 1:1 매칭).
-    """
+def DeObfuscation_files(SRC_Dir, DIST_Dir, files, obf):
 
     # 파일 처리 카운트 초기화
     i = 0
     
-    for next_file_input in source_to_obfusacte:
+    for next_file_input in files:
         # 원본 디렉토리 대비 상대 경로 계산
         relative_path = next_file_input.relative_to(SRC_Dir)
-        # 난독화된 파일을 저장할 경로 설정
+        # 출력 파일을 저장할 경로 설정
         next_file_output = DIST_Dir / relative_path
         # 출력 디렉토리가 없으면 생성
         next_file_output.parent.mkdir(parents=True, exist_ok=True)
@@ -118,50 +116,34 @@ def Obfuscation_files(SRC_Dir, DIST_Dir, source_to_obfusacte, signals, obfuscate
         with open(next_file_input, "rt", encoding='utf-8') as file_input, \
              open(next_file_output, "wt", encoding='utf-8') as file_output:
             print(f"Processing file: {next_file_input}")
-            print(f"{i}/{len(source_to_obfusacte)} Files obfuscated")
+            print(f"{i}/{len(files)} Files obfuscated")
 
             # 전체 파일 내용을 읽기
             text = file_input.read()
 
-            # 주석 제거: '--'로 시작하는 주석을 삭제
-            text = re.sub(r"--.*?$", "", text, flags=re.MULTILINE)
+            # 지정된 문자열 패턴들에 줄바꿈 추가
+            keywords = [';', ',', ' is ']
+            for keyword in keywords:
+                text = text.replace(keyword, keyword + '\n')           
 
-            # 줄바꿈 포함 연속된 스페이스, 탭, 개행 문자를 하나의 스페이스로 변환
-            text = re.sub(r"[\s\t\n\r]+", " ", text).strip()
+            # ff로 시작하는 50자리 문자열을 "--"로 변경
+            ff_pattern = r'\bff[a-zA-Z0-9]{48}\b'
 
-            # 원본 신호 이름을 난독화된 이름으로 대체
-            for original, obfuscated in zip(signals, obfuscated_signals):
-                regex = r"\b" + re.escape(original) + r"\b"  # 정확한 단어 일치
-                insensitive_regex = re.compile(regex, re.IGNORECASE)  # 대소문자 무시
-                text = insensitive_regex.sub(obfuscated, text)
+            # 발견된 문자열을 decode_ff_string 함수로 변환
+            text = re.sub(ff_pattern, lambda m: decode_ff_string(m.group(0), obf), text)
 
             # 수정된 내용을 출력 파일에 저장 (줄바꿈 없이 한 줄로 저장)
             file_output.write(text)
 
     print("All files have been successfully obfuscated.")
 
-def Write_dumpfile(DIST_Dir, signals, obfuscated_signals):
-    # Dump json containing the old and new signals in out_directory/dump.txt
-    # The result is an array of objects like {original_signal : "...", obfuscated_signal: "..."}
-    with open(DIST_Dir + "dump.txt", "wt", encoding='utf-8') as file_dump:
-        file_dump.write("[\n")
-        for i in range(len(signals)):
-            si = signals[i]
-            obf = obfuscated_signals[i]
-            line = f"\t{{\n\t\t\"original_signal\": \"{si}\",\n\t\t\"obfuscated_signal\" : \"{obf}\"\n\t}},\n"
-            file_dump.write(line)
-        file_dump.write("]")
+
 
 obf = Obfuscation()
 
 if (os.path.exists(SRC_Dir)):
     files = list_All_Vhd_Files(SRC_Dir)
-    signals = get_token(files)
-    # Generate an obfuscated version for each string
-    obfuscated_signals = [obf.obfuscate(signal) for signal in signals]
-    Obfuscation_files(SRC_Dir, DIST_Dir, files, signals, obfuscated_signals)
-    Write_dumpfile(DIST_Dir, signals, obfuscated_signals)
-    print('--------------- Job Done Successfully!')
+    DeObfuscation_files(SRC_Dir, DIST_Dir, files, obf)
 else:
     print("ERROR: Source folder doesn't exist")
 

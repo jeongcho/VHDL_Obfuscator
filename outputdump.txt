@@ -1,830 +1,98 @@
 [
 	{
-		"original_signal": "state",
-		"obfuscated_signal" : "ff3332356d7477754d64456339442f2b5a6c44727579413d3d"
+		"original_signal": "s_din",
+		"obfuscated_signal" : "ff3136724c6d546f35755954616e5959735776315034673d3d"
 	},
 	{
-		"original_signal": "s_ad_din",
-		"obfuscated_signal" : "ff6d79702b36614f2b55594a797369344e6c56482b65413d3d"
+		"original_signal": "s_cos",
+		"obfuscated_signal" : "ff6664536151446532395630594b7176672f31463342673d3d"
 	},
 	{
-		"original_signal": "s_ave_tx",
-		"obfuscated_signal" : "ff70553469356248674669474e4f396e764b594b7958773d3d"
+		"original_signal": "s_sin",
+		"obfuscated_signal" : "ff653177574354633548714b463064433133334e4b6c513d3d"
 	},
 	{
-		"original_signal": "s_ave_tx_d",
-		"obfuscated_signal" : "ff764d71614b5443474d507a536f41756f6a356a5638773d3d"
+		"original_signal": "s_sin_n",
+		"obfuscated_signal" : "ff636f2b495a3144664465442b722b4d4a5a4e596857773d3d"
 	},
 	{
-		"original_signal": "s_ave_cnt",
-		"obfuscated_signal" : "ff6f6f49524b56444d77713077545a545663315a5045413d3d"
+		"original_signal": "s_dout_i",
+		"obfuscated_signal" : "ff6a7a434e716c7a746f717743306b6f714e6d447a73673d3d"
 	},
 	{
-		"original_signal": "s_state_cnt",
-		"obfuscated_signal" : "ff566578526b744538644b49392b59753658356a6359413d3d"
+		"original_signal": "s_dout_q",
+		"obfuscated_signal" : "ff3938384f57416d52426b7367535242306b696e7962773d3d"
 	},
 	{
-		"original_signal": "s_fifo_wr0",
-		"obfuscated_signal" : "ff556c7542746b515351533838686b37614254365847513d3d"
+		"original_signal": "s_fir_din",
+		"obfuscated_signal" : "ff2b4f33497435594648796245634a48454378704c53413d3d"
 	},
 	{
-		"original_signal": "s_fifo_rd0",
-		"obfuscated_signal" : "ff5343306145363166474e5241315a39645a6a6d4879773d3d"
+		"original_signal": "s_fir_dout_en",
+		"obfuscated_signal" : "ff566f39426c6f54753770733169365356423742684e773d3d"
 	},
 	{
-		"original_signal": "s_fifo_din0",
-		"obfuscated_signal" : "ff71444670796c6e74686577476451676d39424a302f513d3d"
+		"original_signal": "s_fir_dout",
+		"obfuscated_signal" : "ff487833466a537a722f5a6d34447563522f4e4e7538413d3d"
 	},
 	{
-		"original_signal": "s_fifo_dout0",
-		"obfuscated_signal" : "ff49596952527246685a316551654f564e6635662f39413d3d"
+		"original_signal": "s_freq",
+		"obfuscated_signal" : "ff68695269376a776552687a703771676e4b7a564768773d3d"
 	},
 	{
-		"original_signal": "s_fifo_wr1",
-		"obfuscated_signal" : "ff74434b38614a354247676547696a3048776554796f513d3d"
+		"original_signal": "s_fir_ready",
+		"obfuscated_signal" : "ff767641446948317936577661646545395a44673268513d3d"
 	},
 	{
-		"original_signal": "s_fifo_rd1",
-		"obfuscated_signal" : "ff4a644751576c526f685a63496b69594a7172304848673d3d"
+		"original_signal": "s_quad_dout_en",
+		"obfuscated_signal" : "ff347675484466586c4e5134582f55506b7837723237413d3d"
 	},
 	{
-		"original_signal": "s_fifo_din1",
-		"obfuscated_signal" : "ff557746415069796532515158714d554e6632366b38513d3d"
+		"original_signal": "s_quad_dout_i",
+		"obfuscated_signal" : "ff4268717a775148596e716545416569594745686f64413d3d"
 	},
 	{
-		"original_signal": "s_fifo_dout1",
-		"obfuscated_signal" : "ff644e52654c42493575715935704d6a745041723146773d3d"
+		"original_signal": "s_quad_dout_q",
+		"obfuscated_signal" : "ff736f384947544c6f6c545356674e54614361726e69673d3d"
 	},
 	{
-		"original_signal": "s_fifo_cnt",
-		"obfuscated_signal" : "ff463171634a63344666425a514c56473549496f6a35773d3d"
+		"original_signal": "s_cosold",
+		"obfuscated_signal" : "ff6e582f56416e6b615837436b76752f5a756a79724a673d3d"
 	},
 	{
-		"original_signal": "s_ad_wr",
-		"obfuscated_signal" : "ff366e677746596c337243586a4d5452644a775a4c65673d3d"
+		"original_signal": "s_sinold",
+		"obfuscated_signal" : "ff75417537664168364c76687674384d494559684974513d3d"
 	},
 	{
-		"original_signal": "s_ad_arddr",
-		"obfuscated_signal" : "ff6c6475433641737731515947564b576b796a6c6b4c773d3d"
+		"original_signal": "s_cosnew",
+		"obfuscated_signal" : "ff6e35716d4d333743366a317539723277426a544356513d3d"
 	},
 	{
-		"original_signal": "s_ad_din_ave",
-		"obfuscated_signal" : "ff2f4636662f6c3072673535706e41485a3762646854513d3d"
+		"original_signal": "s_sinnew",
+		"obfuscated_signal" : "ff786239515958776d716b30317a70482f516456536c673d3d"
 	},
 	{
-		"original_signal": "s_ad_din_ave_d",
-		"obfuscated_signal" : "ff714f412b3968364e7561522b464c4e355a4a445231673d3d"
+		"original_signal": "m_clk",
+		"obfuscated_signal" : "ff5178416e525134735a5578472f567a565a2b677774513d3d"
 	},
 	{
-		"original_signal": "s_rx_done",
-		"obfuscated_signal" : "ff5a6c666e34314c507a4e595439584b4e644d6f326e773d3d"
+		"original_signal": "m_din",
+		"obfuscated_signal" : "ff726531644c73452f3079714267764a6a697277334d413d3d"
 	},
 	{
-		"original_signal": "s_buffer_add_reset",
-		"obfuscated_signal" : "ff63705a6d713032797a6f6c39647875556a4737556b5545354d79796e5a506d70346e7835483537776a52733d"
+		"original_signal": "m_freq",
+		"obfuscated_signal" : "ff574a4976744f65433044753745544c46716d417944413d3d"
 	},
 	{
-		"original_signal": "s_buffer_add",
-		"obfuscated_signal" : "ff41734f64796e456c5746356d69726979457351574d513d3d"
+		"original_signal": "m_dout_en",
+		"obfuscated_signal" : "ff6c6a5873626b4c7468497a6d50736777574234572b673d3d"
 	},
 	{
-		"original_signal": "s_buffer_dout",
-		"obfuscated_signal" : "ff71696d73453179677739397a633754775874385361773d3d"
+		"original_signal": "m_dout_i",
+		"obfuscated_signal" : "ff3173395850624f7175547232346b397971375a6f37413d3d"
 	},
 	{
-		"original_signal": "s_local_burst_rd",
-		"obfuscated_signal" : "ff6c52395545616841562b5330335664716b697a3933706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "s_local_burst_rd_end",
-		"obfuscated_signal" : "ff6c52395545616841562b5330335664716b697a3933754e5335735975446a484354684b506d6d344f6554453d"
-	},
-	{
-		"original_signal": "s_burst_data_en",
-		"obfuscated_signal" : "ff416f464a616f72316f6c5653574451334b42425836513d3d"
-	},
-	{
-		"original_signal": "s_burst_data",
-		"obfuscated_signal" : "ff364237545642476634566358363657586b6d2b5330673d3d"
-	},
-	{
-		"original_signal": "s_burst_us_req",
-		"obfuscated_signal" : "ff442f5a372f344d4f50427876662b55446d74477771673d3d"
-	},
-	{
-		"original_signal": "s_burst_data_us",
-		"obfuscated_signal" : "ff64684b35757841614e684d304243786e335a6a5438513d3d"
-	},
-	{
-		"original_signal": "s_burst_imu_req",
-		"obfuscated_signal" : "ff6947484f5a464e57314e6d57485976714235554f44773d3d"
-	},
-	{
-		"original_signal": "s_burst_data_imu",
-		"obfuscated_signal" : "ff537a6f52416d624a366b395532676b7071435155555a6466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "i_ad_clk",
-		"obfuscated_signal" : "ff66634b612f4d46776431426239796e69595a575831413d3d"
-	},
-	{
-		"original_signal": "i_sys_clk",
-		"obfuscated_signal" : "ff5265546f48666357584236504c5951756c496d4859773d3d"
-	},
-	{
-		"original_signal": "i_rst_b",
-		"obfuscated_signal" : "ff35486432672f59566a33374f395741557145392b47413d3d"
-	},
-	{
-		"original_signal": "i_adc_data",
-		"obfuscated_signal" : "ff44636a2f325a3379446b685a472b78523636656767513d3d"
-	},
-	{
-		"original_signal": "i_rx_start",
-		"obfuscated_signal" : "ff3733516e4872384b2b4d313778654b617332752f32413d3d"
-	},
-	{
-		"original_signal": "i_ave_line",
-		"obfuscated_signal" : "ff6e3536516f646f71694a6d4152536d735a78574475773d3d"
-	},
-	{
-		"original_signal": "i_burst_type",
-		"obfuscated_signal" : "ff507a534d467a36562f345a534e5755745574326668773d3d"
-	},
-	{
-		"original_signal": "i_buffer_add_reset",
-		"obfuscated_signal" : "ff734375372b7345675871315954415046687a5046356b45354d79796e5a506d70346e7835483537776a52733d"
-	},
-	{
-		"original_signal": "i_local_burst_index",
-		"obfuscated_signal" : "ff4732345242474976646c354951705765616f3543544b68324e585352362b4c533254566936366b482f516f3d"
-	},
-	{
-		"original_signal": "i_local_burst_rd",
-		"obfuscated_signal" : "ff35345579546249415444475676365976357270794f706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "i_local_burst_rd_end",
-		"obfuscated_signal" : "ff35345579546249415444475676365976357270794f754e5335735975446a484354684b506d6d344f6554453d"
-	},
-	{
-		"original_signal": "o_ave_tx_trg",
-		"obfuscated_signal" : "ff78367278306164782f62776f386552346a615a594c673d3d"
-	},
-	{
-		"original_signal": "o_rx_done",
-		"obfuscated_signal" : "ff4f4e713355624a533343352b346e33756246377338673d3d"
-	},
-	{
-		"original_signal": "i_imu_trig",
-		"obfuscated_signal" : "ff526a78674d6b6743434d707672794536766e71794c513d3d"
-	},
-	{
-		"original_signal": "o_burst_us_req",
-		"obfuscated_signal" : "ff547151597569774e3243584579796a57764a7a6c39673d3d"
-	},
-	{
-		"original_signal": "o_burst_imu_req",
-		"obfuscated_signal" : "ff3749554e2f736346657730416b38716a732b745371513d3d"
-	},
-	{
-		"original_signal": "o_burst_data_en",
-		"obfuscated_signal" : "ff545336484f3169516e614c77456c316d622f53482f673d3d"
-	},
-	{
-		"original_signal": "o_burst_data",
-		"obfuscated_signal" : "ff336c46794e7a665a41773233795930316930313174513d3d"
-	},
-	{
-		"original_signal": "state_type",
-		"obfuscated_signal" : "ff4463694d6d3674306b327471514e62734244666268773d3d"
-	},
-	{
-		"original_signal": "s_curve_start",
-		"obfuscated_signal" : "ff72396f4866626941504935327354686552564b7351673d3d"
-	},
-	{
-		"original_signal": "s_curve_end",
-		"obfuscated_signal" : "ff55613430334f79674f775253414f5a464945444e47513d3d"
-	},
-	{
-		"original_signal": "s_curve_step",
-		"obfuscated_signal" : "ff69416a594c6b4c76746830437950566a70524c432f513d3d"
-	},
-	{
-		"original_signal": "s_curve_index",
-		"obfuscated_signal" : "ff757473444d754137707a6f4c64544e566837495779413d3d"
-	},
-	{
-		"original_signal": "s_sclk",
-		"obfuscated_signal" : "ff625738313039667736545233646335366f2b754166513d3d"
-	},
-	{
-		"original_signal": "s_sync",
-		"obfuscated_signal" : "ff4d596458786a58556344616e74387834506f674f6a773d3d"
-	},
-	{
-		"original_signal": "s_dout",
-		"obfuscated_signal" : "ff494e4864737538676235784a6141726c6b755a5335673d3d"
-	},
-	{
-		"original_signal": "s_bit_cnt",
-		"obfuscated_signal" : "ff396775306b464b6337522b4a2f39756a36634b7262673d3d"
-	},
-	{
-		"original_signal": "s_dac_data",
-		"obfuscated_signal" : "ff744e484570564463706f326d36714e434f39303248673d3d"
-	},
-	{
-		"original_signal": "s_dac_dout",
-		"obfuscated_signal" : "ff4d6832697664797a78424b2b312f72484746554565513d3d"
-	},
-	{
-		"original_signal": "s_prt_trig",
-		"obfuscated_signal" : "ff4c702b392b614c4a66446a544e747643526a70714b673d3d"
-	},
-	{
-		"original_signal": "s_sclk_cnt",
-		"obfuscated_signal" : "ff70353635356970624c704e3862574b545137754d70413d3d"
-	},
-	{
-		"original_signal": "state_index",
-		"obfuscated_signal" : "ff2b375552443143785732396177706f626f37654e38513d3d"
-	},
-	{
-		"original_signal": "s_sample_cnt",
-		"obfuscated_signal" : "ff464961704e7066766f775243397a76466d2f6f6174513d3d"
-	},
-	{
-		"original_signal": "s_step_cnt",
-		"obfuscated_signal" : "ff4c636e5a61592b30576d5954426378507462507a34773d3d"
-	},
-	{
-		"original_signal": "s_curve_done",
-		"obfuscated_signal" : "ff616467482f66626839722b6b6c4d704e6d38635131673d3d"
-	},
-	{
-		"original_signal": "i_clk",
-		"obfuscated_signal" : "ff646c697472594161522b6f4a4e42664c45314b7647673d3d"
-	},
-	{
-		"original_signal": "i_prt",
-		"obfuscated_signal" : "ff7577634c35733576714a6e467134724f73764e526e413d3d"
-	},
-	{
-		"original_signal": "i_rx_done",
-		"obfuscated_signal" : "ff464c4270575a573343704b50346654753570686a4a513d3d"
-	},
-	{
-		"original_signal": "i_atgc_en",
-		"obfuscated_signal" : "ff466c56577037426c6d67396e4c7458574978754f33773d3d"
-	},
-	{
-		"original_signal": "i_curve_start",
-		"obfuscated_signal" : "ff564d5334666b536f71567a61553767314e725a7369413d3d"
-	},
-	{
-		"original_signal": "i_curve_end",
-		"obfuscated_signal" : "ff744370504455337641457150687a38327844666c4b673d3d"
-	},
-	{
-		"original_signal": "i_curve_step",
-		"obfuscated_signal" : "ff66536d4a3633797744435435454757592b7a456c55673d3d"
-	},
-	{
-		"original_signal": "i_curve_test",
-		"obfuscated_signal" : "ff6f645a514245362b47742f33584a524f6166534a66413d3d"
-	},
-	{
-		"original_signal": "o_sclk",
-		"obfuscated_signal" : "ff654e6a4a693257465753507571322b797962665a53773d3d"
-	},
-	{
-		"original_signal": "o_sync",
-		"obfuscated_signal" : "ff696a32614d4879457535376b6e795861633435547a773d3d"
-	},
-	{
-		"original_signal": "o_dout",
-		"obfuscated_signal" : "ff6d33575a464452414130716c314d76662f67614f4a773d3d"
-	},
-	{
-		"original_signal": "s_ad_clk",
-		"obfuscated_signal" : "ff466c51486a56584a2b666f5a2f50332b455637724d673d3d"
-	},
-	{
-		"original_signal": "i_main_clk",
-		"obfuscated_signal" : "ff5747584f4e5a315956596a48546768327263774947413d3d"
-	},
-	{
-		"original_signal": "o_ad_clk",
-		"obfuscated_signal" : "ff41705664654147352f643052504f454c623535336b513d3d"
-	},
-	{
-		"original_signal": "o_sys_clk",
-		"obfuscated_signal" : "ff4c324f792b71623332766b534f5431537a4a625834513d3d"
-	},
-	{
-		"original_signal": "o_reset_b",
-		"obfuscated_signal" : "ff6a564476305a572b623250416c6550536748435461413d3d"
-	},
-	{
-		"original_signal": "i_adclk_inv",
-		"obfuscated_signal" : "ff536930494267356c356d6465357972417349623968773d3d"
-	},
-	{
-		"original_signal": "o_adc_clk",
-		"obfuscated_signal" : "ff5368554b4c64644b4b51462b506955375078414d50513d3d"
-	},
-	{
-		"original_signal": "s_seq_start_b_d",
-		"obfuscated_signal" : "ff593849544238564e5a4f4f30697845746f3648394b773d3d"
-	},
-	{
-		"original_signal": "s_tx_trig",
-		"obfuscated_signal" : "ff6a69766930357a5a71345535514c6831334b786156413d3d"
-	},
-	{
-		"original_signal": "s_tx_trig_d",
-		"obfuscated_signal" : "ff733376763864736847363363415574576533675679413d3d"
-	},
-	{
-		"original_signal": "s_tx_trig_cnt",
-		"obfuscated_signal" : "ff76706a6a7a70585534387a6a51534b353045744471513d3d"
-	},
-	{
-		"original_signal": "s_rx_start",
-		"obfuscated_signal" : "ff6d68484e425465536557496f6d766f2b2b79737763773d3d"
-	},
-	{
-		"original_signal": "s_pulse_mem_addr",
-		"obfuscated_signal" : "ff336751706b474e77626d56546a7a435337462f436a706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "s_pulse_mem_live_addr",
-		"obfuscated_signal" : "ff33504767675342586d73586851374f6e535574767769347064655762476f477074326c6a6a4956463854513d"
-	},
-	{
-		"original_signal": "s_pluse_mem_wr",
-		"obfuscated_signal" : "ff74514464426562416e5a2b58613076416f67623879773d3d"
-	},
-	{
-		"original_signal": "s_pluse_mem_rd",
-		"obfuscated_signal" : "ff34614a69506e3970396b315733737a707363585637413d3d"
-	},
-	{
-		"original_signal": "s_pulse_mem_din",
-		"obfuscated_signal" : "ff3951317875704677755470494a765341694f6c6373673d3d"
-	},
-	{
-		"original_signal": "s_pulse_mem_dout",
-		"obfuscated_signal" : "ff2f2b70762b58354c337342626d654e6d48557a477a706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "s_pulse_mem_live_dout",
-		"obfuscated_signal" : "ff33504767675342586d73586851374f6e535574767775706b527141765858325a592f2b4b634247536b75303d"
-	},
-	{
-		"original_signal": "s_pulse_out_en",
-		"obfuscated_signal" : "ff6c436a706c636136384e4f746261574f5172714752773d3d"
-	},
-	{
-		"original_signal": "s_pulse_out_en_d",
-		"obfuscated_signal" : "ff696841516a4152674b62577a313762754c6b536966706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "s_ina",
-		"obfuscated_signal" : "ff65536c5a7a446b4b532b6b624e527249436c4f5666513d3d"
-	},
-	{
-		"original_signal": "s_inb",
-		"obfuscated_signal" : "ff644d6a724239655a657a6a7370352f2f676433584d513d3d"
-	},
-	{
-		"original_signal": "s_inc",
-		"obfuscated_signal" : "ff375446322f527177366f784e6c4d48565641335871513d3d"
-	},
-	{
-		"original_signal": "s_ind",
-		"obfuscated_signal" : "ff64573738316645543456654265304d67556d745039513d3d"
-	},
-	{
-		"original_signal": "s_pe",
-		"obfuscated_signal" : "ff3830622f4d57474a3536306d674849556b424e6372673d3d"
-	},
-	{
-		"original_signal": "i_local_wr",
-		"obfuscated_signal" : "ff38775474676b547869547157323062486f30384138513d3d"
-	},
-	{
-		"original_signal": "i_local_rd",
-		"obfuscated_signal" : "ff64414557384353726b316e5671497773485a66434d773d3d"
-	},
-	{
-		"original_signal": "i_local_addr",
-		"obfuscated_signal" : "ff78354434684f7873684d38516a6f78505251776d30773d3d"
-	},
-	{
-		"original_signal": "i_pulse_mem_din",
-		"obfuscated_signal" : "ff69307753776b4c41436851685763364a436d6d6357413d3d"
-	},
-	{
-		"original_signal": "i_pulse_mem_addr_reset",
-		"obfuscated_signal" : "ff5374654866792f7646766e34576d3871482f4233426d4f794b496b4252735038774b635a692f47434275733d"
-	},
-	{
-		"original_signal": "i_seq_start_b",
-		"obfuscated_signal" : "ff644149646e2f592b75576a6d636b4b68476d2f6b32413d3d"
-	},
-	{
-		"original_signal": "i_ave_tx_trig",
-		"obfuscated_signal" : "ff2f53737945374c42505178516556477a2b62374253513d3d"
-	},
-	{
-		"original_signal": "i_pulse_en",
-		"obfuscated_signal" : "ff7750586371534d665a63576c51526534326a545459773d3d"
-	},
-	{
-		"original_signal": "i_tx_to_rx_delay",
-		"obfuscated_signal" : "ff745236364a4b746a4f413841455535393239674b2f706466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "o_hv7361_pe",
-		"obfuscated_signal" : "ff7834664836384d694279687831375a69447549416e513d3d"
-	},
-	{
-		"original_signal": "o_hv7361_ina",
-		"obfuscated_signal" : "ff3656576e79313143364555535846394a4b4f736d6a773d3d"
-	},
-	{
-		"original_signal": "o_hv7361_inb",
-		"obfuscated_signal" : "ff3367393949484a616653464e302b75364735597a69413d3d"
-	},
-	{
-		"original_signal": "o_hv7361_inc",
-		"obfuscated_signal" : "ff3934526d666c753644557669695569676f516c2f4a413d3d"
-	},
-	{
-		"original_signal": "o_hv7361_ind",
-		"obfuscated_signal" : "ff6c4c38612b3248524c32377a4b5079742b48546f6f413d3d"
-	},
-	{
-		"original_signal": "o_pulser_en",
-		"obfuscated_signal" : "ff664f3757444548624d767170316f7569546c31524b413d3d"
-	},
-	{
-		"original_signal": "o_imu_trig",
-		"obfuscated_signal" : "ff5477384c6179314a4e7a754778636157746d433873413d3d"
-	},
-	{
-		"original_signal": "o_tx_trig",
-		"obfuscated_signal" : "ff41666552546a7944424261736f59474647794f4e57413d3d"
-	},
-	{
-		"original_signal": "o_rx_start",
-		"obfuscated_signal" : "ff724779796d7348324e415159316e787241466a4c62673d3d"
-	},
-	{
-		"original_signal": "s_state",
-		"obfuscated_signal" : "ff3356346e6b6d524c41794b782b596c6b4b71577156773d3d"
-	},
-	{
-		"original_signal": "s_hvmux_le_b",
-		"obfuscated_signal" : "ff506a4e502f5534716b4e7548753674624134502f41513d3d"
-	},
-	{
-		"original_signal": "s_hvmux_clr",
-		"obfuscated_signal" : "ff44524e756430587a3552515465477279304b726c55673d3d"
-	},
-	{
-		"original_signal": "s_hvmux_clk",
-		"obfuscated_signal" : "ff75466c674974754f447331572b46544b6554796453773d3d"
-	},
-	{
-		"original_signal": "s_hvmux_din",
-		"obfuscated_signal" : "ff6239637870336c42724e5654633632684172495550413d3d"
-	},
-	{
-		"original_signal": "s_mux_value",
-		"obfuscated_signal" : "ff6a394a6675415268432b6a2b79387a3147686f4775513d3d"
-	},
-	{
-		"original_signal": "s_mux_ready",
-		"obfuscated_signal" : "ff6a76424f79542f6c3563536e5665316a716c6a6931673d3d"
-	},
-	{
-		"original_signal": "s_mux_value_rx",
-		"obfuscated_signal" : "ff65692b67694a74704a445652756b62616857586e4f773d3d"
-	},
-	{
-		"original_signal": "s_mux_trans_en",
-		"obfuscated_signal" : "ff3375735138777a42526d722f7752725678772f772b673d3d"
-	},
-	{
-		"original_signal": "s_mux_trans_trg",
-		"obfuscated_signal" : "ff6835564c48596937437a51543948662f35496a384f513d3d"
-	},
-	{
-		"original_signal": "s_md1210_ina_1d",
-		"obfuscated_signal" : "ff7372325a5830454765734362462b33584872546a4d773d3d"
-	},
-	{
-		"original_signal": "s_md1210_ina_2d",
-		"obfuscated_signal" : "ff612f696555676333415054536a6468314f6379534f773d3d"
-	},
-	{
-		"original_signal": "s_md1210_inb_1d",
-		"obfuscated_signal" : "ff72785a6c7832576d55707568776476394863574442413d3d"
-	},
-	{
-		"original_signal": "s_md1210_inb_2d",
-		"obfuscated_signal" : "ff735245744b514a34423867726f4d42396c4d6c5752773d3d"
-	},
-	{
-		"original_signal": "s_md1210_oe_1d",
-		"obfuscated_signal" : "ff37506d4b4e787842646e744564774f6d716a46674c673d3d"
-	},
-	{
-		"original_signal": "s_md1210_oe_2d",
-		"obfuscated_signal" : "ff45326c39354e5154524f516f48615976557538784a673d3d"
-	},
-	{
-		"original_signal": "s_oe_trig",
-		"obfuscated_signal" : "ff4a5558376c59584e434b78587a3954487058575a45513d3d"
-	},
-	{
-		"original_signal": "s_ce_cnt",
-		"obfuscated_signal" : "ff3064314878596b794a55597864514b7768636a4374513d3d"
-	},
-	{
-		"original_signal": "s_rx_done_trig_d1",
-		"obfuscated_signal" : "ff3367725370396e6331364d2b4f59447848504336325671736e5a567179456163342b3632554372536350553d"
-	},
-	{
-		"original_signal": "s_rx_done_trig_d2",
-		"obfuscated_signal" : "ff3367725370396e6331364d2b4f5944784850433632536962514a316643437144352b554f456672764850773d"
-	},
-	{
-		"original_signal": "s_rx_done_trig",
-		"obfuscated_signal" : "ff30685a6b63634873656b74492b62757256476b4446773d3d"
-	},
-	{
-		"original_signal": "i_clk_ce",
-		"obfuscated_signal" : "ff7854425a556d4e53555649797142586b303678466b513d3d"
-	},
-	{
-		"original_signal": "i_mux_clr_disable",
-		"obfuscated_signal" : "ff384e384631782b57397630796c34464b57684f327869644c6e376c396a5254596762346457777a6170306f3d"
-	},
-	{
-		"original_signal": "i_mux_value",
-		"obfuscated_signal" : "ff476b564439694332476f5a533754487151476a6248673d3d"
-	},
-	{
-		"original_signal": "i_mux_ld",
-		"obfuscated_signal" : "ff4e49574d7533685634546571307432626659666857413d3d"
-	},
-	{
-		"original_signal": "o_mux_ready",
-		"obfuscated_signal" : "ff6e4649784b3465516a724e3057332b7a426f584937773d3d"
-	},
-	{
-		"original_signal": "i_mux_value_rx",
-		"obfuscated_signal" : "ff4d4c684331594578417649544e43314e6866375743513d3d"
-	},
-	{
-		"original_signal": "i_mux_trans_en",
-		"obfuscated_signal" : "ff507a554d645932624e6d5051646a46622b714e5666773d3d"
-	},
-	{
-		"original_signal": "i_md1210_oe",
-		"obfuscated_signal" : "ff616b737343704e70344e503344306438497967495a673d3d"
-	},
-	{
-		"original_signal": "i_mux_update_off",
-		"obfuscated_signal" : "ff39592f5541413141614f6e68787a46754f354d786e356466634b6948397a6f7466675938636851536461593d"
-	},
-	{
-		"original_signal": "i_rx_done_trig",
-		"obfuscated_signal" : "ff6a7a343546684266554f5764783269396e43705264413d3d"
-	},
-	{
-		"original_signal": "hvmux_le_b",
-		"obfuscated_signal" : "ff467959392f624f5371496c59516e6c6b4a437a6147513d3d"
-	},
-	{
-		"original_signal": "hvmux_clr",
-		"obfuscated_signal" : "ff5a4c417144366477556471676854672b764d50437a413d3d"
-	},
-	{
-		"original_signal": "hvmux_clk",
-		"obfuscated_signal" : "ff71387847437a47756b486a554f7567746c324c4132673d3d"
-	},
-	{
-		"original_signal": "hvmux_din",
-		"obfuscated_signal" : "ff4845765873532f42796f326a6f73496b4b4c6b7651673d3d"
-	},
-	{
-		"original_signal": "s_spi_start",
-		"obfuscated_signal" : "ff4549655466306666436a6e6634644341336757474e513d3d"
-	},
-	{
-		"original_signal": "s_spi_done",
-		"obfuscated_signal" : "ff434f32437247496130756d662b6b59555761513166673d3d"
-	},
-	{
-		"original_signal": "s_byte_en",
-		"obfuscated_signal" : "ff6a6544344e722f7450724b55436b753970646a7935413d3d"
-	},
-	{
-		"original_signal": "s_byte_out",
-		"obfuscated_signal" : "ff44442b332b5568534e3234732f7a5a6f7968474f4c773d3d"
-	},
-	{
-		"original_signal": "s_byte_in",
-		"obfuscated_signal" : "ff4e307a734b714f7044553464743058634961684a59773d3d"
-	},
-	{
-		"original_signal": "state_spi",
-		"obfuscated_signal" : "ff3256316a646f754138494e7532645a504c46757065773d3d"
-	},
-	{
-		"original_signal": "s_addr",
-		"obfuscated_signal" : "ff57534359547239756c46632b7a2b353262482b546b773d3d"
-	},
-	{
-		"original_signal": "s_data",
-		"obfuscated_signal" : "ff70544657742b7466466c2f512b68597547486f4b65773d3d"
-	},
-	{
-		"original_signal": "s_wr",
-		"obfuscated_signal" : "ff64516232666851527352746a5a446956375962574a513d3d"
-	},
-	{
-		"original_signal": "s_rd",
-		"obfuscated_signal" : "ff6f58772f57584272433434564e6c503841364c6c6b673d3d"
-	},
-	{
-		"original_signal": "s_burst_rd",
-		"obfuscated_signal" : "ff4e2f733359457537464c61517a6338695a486f7334513d3d"
-	},
-	{
-		"original_signal": "s_trig_out",
-		"obfuscated_signal" : "ff4c4f6f4a6e6b7831516f6f78394d656b7533336e34413d3d"
-	},
-	{
-		"original_signal": "s_trig_out_ack",
-		"obfuscated_signal" : "ff33503456684f524451416e48393764314757423174513d3d"
-	},
-	{
-		"original_signal": "s_trig_in",
-		"obfuscated_signal" : "ff586865305845624749424a51466f636a3149795158413d3d"
-	},
-	{
-		"original_signal": "s_trig_in_ack",
-		"obfuscated_signal" : "ff654f38445846794d4d66746b6b7642512f6c53544e773d3d"
-	},
-	{
-		"original_signal": "s_burst_dout",
-		"obfuscated_signal" : "ff54514c68322f716531666a713278574c51634e4d56513d3d"
-	},
-	{
-		"original_signal": "s_burst_rd_end",
-		"obfuscated_signal" : "ff50454b6f53716f5435546a4f306662464e424a6d66413d3d"
-	},
-	{
-		"original_signal": "s_burst_index",
-		"obfuscated_signal" : "ff6c37684e56544e63784566782b4d554d4850443968673d3d"
-	},
-	{
-		"original_signal": "i_spi_ss",
-		"obfuscated_signal" : "ff7258504f47346c4e645a5131617944586948773077413d3d"
-	},
-	{
-		"original_signal": "i_spi_sclk",
-		"obfuscated_signal" : "ff4e67723178496a7a4769334b577171704547335039513d3d"
-	},
-	{
-		"original_signal": "i_spi_mosi",
-		"obfuscated_signal" : "ff7343554f4c6a6c70454831516e45736c4a5a547768513d3d"
-	},
-	{
-		"original_signal": "o_spi_miso",
-		"obfuscated_signal" : "ff38573064707770304262356b463164776e34475552773d3d"
-	},
-	{
-		"original_signal": "o_local_addr",
-		"obfuscated_signal" : "ff61544174504f33586e3643766a366247734f413630773d3d"
-	},
-	{
-		"original_signal": "o_local_din",
-		"obfuscated_signal" : "ff6448616a4a3136307a504e31667a417a463779686a513d3d"
-	},
-	{
-		"original_signal": "o_local_wr",
-		"obfuscated_signal" : "ff2f61736e7047674e64383453464b4e7a635a55394f413d3d"
-	},
-	{
-		"original_signal": "o_local_rd",
-		"obfuscated_signal" : "ff4b6a7876636f504d4843536443397874416a367351413d3d"
-	},
-	{
-		"original_signal": "i_local_dout",
-		"obfuscated_signal" : "ff43465865334a414c4a41776c2f6f6d577156625a69673d3d"
-	},
-	{
-		"original_signal": "o_burst_index",
-		"obfuscated_signal" : "ff62796f65455876743230746d6631372f3454496658673d3d"
-	},
-	{
-		"original_signal": "o_burst_rd",
-		"obfuscated_signal" : "ff6951617777597442346d5349536a796b47516b5731773d3d"
-	},
-	{
-		"original_signal": "o_burst_rd_end",
-		"obfuscated_signal" : "ff67474e6e77396643475675674e4652785972313658673d3d"
-	},
-	{
-		"original_signal": "i_burst_dout",
-		"obfuscated_signal" : "ff3272704a39394b517065324b686c4f542b43466e34673d3d"
-	},
-	{
-		"original_signal": "i_burst_dout_en",
-		"obfuscated_signal" : "ff62304432436b66676266536646666d4f54474b4866513d3d"
-	},
-	{
-		"original_signal": "trig_out",
-		"obfuscated_signal" : "ff346d646648366e584e6746546575656c523749494b513d3d"
-	},
-	{
-		"original_signal": "trig_out_ack",
-		"obfuscated_signal" : "ff48376c395851486b6e32554132647658532b584b6c513d3d"
-	},
-	{
-		"original_signal": "o_spi_start",
-		"obfuscated_signal" : "ff335a7174676c576734544674503652564c4a6e6e77773d3d"
-	},
-	{
-		"original_signal": "o_spi_done",
-		"obfuscated_signal" : "ff6e524f485465703461672f4f654362464d57764b53413d3d"
-	},
-	{
-		"original_signal": "o_byte_en",
-		"obfuscated_signal" : "ff704648527a4d505035662b6a2b77736f686750756b413d3d"
-	},
-	{
-		"original_signal": "o_byte_out",
-		"obfuscated_signal" : "ff646b5038617a6746734e675533595672616f453364413d3d"
-	},
-	{
-		"original_signal": "i_byte_in",
-		"obfuscated_signal" : "ff73734f2b465261743631565947394c787650346f62773d3d"
-	},
-	{
-		"original_signal": "state_type_spi",
-		"obfuscated_signal" : "ff66584a4c67586837454654693434676d44426b3551673d3d"
-	},
-	{
-		"original_signal": "s_spi_sclk_p",
-		"obfuscated_signal" : "ff61786f7153764a4a426969366f523161693745386e673d3d"
-	},
-	{
-		"original_signal": "s_spi_mosi",
-		"obfuscated_signal" : "ff6f52516f6d34696758624b76384238674863434443673d3d"
-	},
-	{
-		"original_signal": "s_spi_ss",
-		"obfuscated_signal" : "ff425a5747656838772f536673714b685232696f752b773d3d"
-	},
-	{
-		"original_signal": "s_spi_sclk",
-		"obfuscated_signal" : "ff51636556537349704637544b6a57674f4b436c5170673d3d"
-	},
-	{
-		"original_signal": "s_spi_sclk_r",
-		"obfuscated_signal" : "ff6f342b455676516968516536485245684457646561413d3d"
-	},
-	{
-		"original_signal": "s_spi_sclk_f",
-		"obfuscated_signal" : "ff37375554436e4f587932373345557239714b733657673d3d"
-	},
-	{
-		"original_signal": "s_cnt",
-		"obfuscated_signal" : "ff703351445933366133643946623668784954715874513d3d"
-	},
-	{
-		"original_signal": "s_buffer",
-		"obfuscated_signal" : "ff4a676c3336565a6a586b5a76594d48397873534835413d3d"
-	},
-	{
-		"original_signal": "s_byte_data",
-		"obfuscated_signal" : "ff694e554f4638777579707a2b492b45693331586356773d3d"
-	},
-	{
-		"original_signal": "s_byte_en_p",
-		"obfuscated_signal" : "ff2f6c47682b59536e6a6b554a70734c4f734846486c773d3d"
-	},
-	{
-		"original_signal": "s_spi_miso",
-		"obfuscated_signal" : "ff544e6b683542427946515775317276306b564d7a6f513d3d"
+		"original_signal": "m_dout_q",
+		"obfuscated_signal" : "ff69564244526f7a527376554b6668394a4b6f336b32513d3d"
 	},
 ]
